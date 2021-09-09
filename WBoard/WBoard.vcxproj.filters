@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{f1bcf370-7bfb-45d0-8eed-3a7141d4bda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{b126d930-9a34-4f5a-ba47-b3e8c0f76686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frameworks">
+      <UniqueIdentifier>{12b384ce-90ba-40bb-b10f-430f733f7191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frameworks">
+      <UniqueIdentifier>{cc9c4a85-82bc-4e31-b6d7-9b0f6daa382a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qtsingleapplication">
+      <UniqueIdentifier>{467b7c3d-e9a0-453a-96ab-f34eb8409657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qtsingleapplication">
+      <UniqueIdentifier>{e2cde9d5-3b76-4a10-82f7-27124ad9292b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\adaptor">
+      <UniqueIdentifier>{0910290c-6e22-4c46-b847-280d34dab216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adaptor">
+      <UniqueIdentifier>{e193fcd6-658e-4f03-94cc-d0662fd230d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\api">
+      <UniqueIdentifier>{ea8ae897-63b2-4f3a-9f13-31a9db2c4d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\api">
+      <UniqueIdentifier>{2b2c8d94-bb1c-4778-aaf0-07d207df54e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\board">
+      <UniqueIdentifier>{58065c50-db09-4ae2-87a0-a2f58b9e9b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\board">
+      <UniqueIdentifier>{8cff56df-50fe-4db4-85b0-8ecddd3939a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\desktop">
+      <UniqueIdentifier>{82921689-62f5-46c8-bfdb-f715f8915a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\desktop">
+      <UniqueIdentifier>{8e5f2707-8186-4ac9-868c-f0f6f57fb61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\document">
+      <UniqueIdentifier>{4464c231-1374-4a49-84d0-f11ca04ce8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\document">
+      <UniqueIdentifier>{f151ecb5-95c1-47bf-9333-66922d2d1c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\domain">
+      <UniqueIdentifier>{95a0ca81-2396-44c9-9a74-70ad716a9410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\domain">
+      <UniqueIdentifier>{3a71d93f-e1d7-4005-a0db-0c1232960583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{3fd7544f-6a2a-4b2e-a89e-e38bcf9f8b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{a4aaea3a-ff67-4b1a-901d-6ca032961ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network">
+      <UniqueIdentifier>{02873376-261a-4d48-9230-782c1f5b01d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{409a11a3-9419-4528-a4bf-d85d9fc351e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pdf">
+      <UniqueIdentifier>{9dd73b17-5bbd-4783-a126-0079fdbea509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pdf">
+      <UniqueIdentifier>{8f55d398-8af5-4741-82d4-fec01370724f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pdfMerger">
+      <UniqueIdentifier>{a13a3113-f460-449e-96ec-80184a39d919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{82f04d7c-3c9e-48b1-8139-df7a0d04741f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{e2f868b1-f746-431b-be82-39bf77ccab8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web">
+      <UniqueIdentifier>{9be7bc6f-e942-48b7-8337-f5a0a7c1879f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web">
+      <UniqueIdentifier>{db3097e4-455a-481b-a0c8-c0e06760b496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\globals">
+      <UniqueIdentifier>{6ef1a971-640c-4ed3-92db-2e82e7aa6d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\browser">
+      <UniqueIdentifier>{33f07984-a8d7-49cc-8f3c-0cb9b7ac71ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\browser">
+      <UniqueIdentifier>{d3f64f70-bf58-4548-911a-a8acb0006cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\customWidgets">
+      <UniqueIdentifier>{4896e071-c441-44c1-88a9-50a226e4ceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\customWidgets">
+      <UniqueIdentifier>{6db8e858-978f-4a94-8845-66c259ef7b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\podcast">
+      <UniqueIdentifier>{1b384a39-90c6-4c91-ba0a-a19047e81382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\podcast">
+      <UniqueIdentifier>{f0c07fce-e935-415d-9a06-bdec74880077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\podcast\windowsmedia">
+      <UniqueIdentifier>{df6ca541-6c99-43c0-8844-bf0236bf1384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\podcast\windowsmedia">
+      <UniqueIdentifier>{e1583b76-c310-463f-9cce-2d53300bca4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\pdf\PDFRenderer.cpp">
+      <Filter>Source Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pdf\GraphicsPDFItem.cpp">
+      <Filter>Source Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\qtsingleapplication\qtlocalpeer.cpp">
+      <Filter>Source Files\qtsingleapplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\qtsingleapplication\qtsingleapplication.cpp">
+      <Filter>Source Files\qtsingleapplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\main.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBBrowserWindow.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBChaseWidget.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBEditTableView.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBModelMenu.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBSearchLineEdit.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBSqueezeLabel.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBTabWidget.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBToolBarSearch.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBUrlLineEdit.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBWebTrapWebView.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBWebView.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pdf\XPDFRenderer.cpp">
+      <Filter>Source Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBCFFAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBCFFSubsetAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportCFF.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportDocument.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportDocumentSetAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportFullPDF.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportPDF.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBExportWeb.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBImportAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBImportCFF.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBImportDocument.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBImportDocumentSetAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBImportImage.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBImportPDF.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBMetadataDcSubsetAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBSvgSubsetAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\adaptors\WBThumbnailAdaptor.cpp">
+      <Filter>Source Files\adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\api\WBLibraryAPI.cpp">
+      <Filter>Source Files\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\api\WBW3CWidgetAPI.cpp">
+      <Filter>Source Files\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\api\WBWidgetMessageAPI.cpp">
+      <Filter>Source Files\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\api\WBWidgetUniboardAPI.cpp">
+      <Filter>Source Files\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\board\WBBoardController.cpp">
+      <Filter>Source Files\board</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\board\WBBoardPaletteManager.cpp">
+      <Filter>Source Files\board</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\board\WBBoardView.cpp">
+      <Filter>Source Files\board</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\board\WBDrawingController.cpp">
+      <Filter>Source Files\board</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\board\WBFeaturesController.cpp">
+      <Filter>Source Files\board</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBApplication.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBApplicationController.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBDisplayManager.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBDocumentManager.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBDownloadManager.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBDownloadThread.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBForeignObjectsHandler.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBIdleTimer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBMimeData.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBOpenSankoreImporter.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBPersistenceManager.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBPersistenceWorker.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBPreferencesController.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBSceneCache.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBSetting.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBSettings.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\WBTextTools.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\customWidgets\WBActionableWidget.cpp">
+      <Filter>Source Files\customWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\customWidgets\WBGraphicsItemAction.cpp">
+      <Filter>Source Files\customWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\customWidgets\WBMediaWidget.cpp">
+      <Filter>Source Files\customWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\desktop\WBCustomCaptureWindow.cpp">
+      <Filter>Source Files\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\desktop\WBDesktopAnnotationController.cpp">
+      <Filter>Source Files\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\desktop\WBDesktopPalette.cpp">
+      <Filter>Source Files\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\desktop\WBDesktopPropertyPalette.cpp">
+      <Filter>Source Files\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\desktop\WBWindowCapture_win.cpp">
+      <Filter>Source Files\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\desktop\WBWindowCaptureDelegate_win.cpp">
+      <Filter>Source Files\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\document\WBDocumentContainer.cpp">
+      <Filter>Source Files\document</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\document\WBDocumentController.cpp">
+      <Filter>Source Files\document</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\document\WBDocumentProxy.cpp">
+      <Filter>Source Files\document</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\document\WBSortFilterProxyModel.cpp">
+      <Filter>Source Files\document</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBDragableThumbnail.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsDelegateFrame.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsGroupContainerItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsGroupContainerItemDelegate.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsItemDelegate.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsItemGroupUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsItemTransformUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsItemUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsItemZLevelUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsMediaItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsMediaItemDelegate.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsPDFItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsPixmapItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsPolygonItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsProxyWidget.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsScene.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsStroke.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsStrokesGroup.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsSvgItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsTextItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsTextItemDelegate.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsTextItemUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsWidgetItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBGraphicsWidgetItemDelegate.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBPageSizeUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBResizableGraphicsItem.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBSelectionFrame.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\domain\WBUndoCommand.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBBase32.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBCoreGraphicsScene.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBCryptoUtils.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBFileSystemUtils.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBGeometryUtils.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBPlatformUtils.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBPlatformUtils_win.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBStringUtils.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\frameworks\WBVersion.cpp">
+      <Filter>Source Files\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBActionPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBBackgroundPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBBlackoutWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBBoardThumbnailsView.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBCachePropertiesWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBCircleFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBColorPicker.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDockDownloadWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDockPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDockPaletteWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDocumentNavigator.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDocumentThumbnailWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDocumentToolsPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDocumentTreeWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBDownloadWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBFavoriteToolPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBFeaturesActionBar.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBFeaturesWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBFloatingPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBIconButton.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBKeyboardPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBKeyboardPalette_win.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBLeftPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBMagnifer.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBMainWindow.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBMessagesDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBMessageWindow.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBMousePressFilter.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBOpenSankoreImporterWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBPageNavigationWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBPropertyPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBResources.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBRightPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBRubberBand.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBScreenMirror.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBSpinningWheel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBStartupHintsPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBStylusPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBThumbnailView.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBThumbnailWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBToolbarButtonGroup.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBToolWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBUpdateDlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBWebToolsPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBWidgetMirror.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gui\WBZoomPalette.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\network\WBAutoSaver.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\network\WBHttpGet.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\network\WBNetworkAccessManager.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\podcast\windowsmedia\WBWaveRecorder.cpp">
+      <Filter>Source Files\podcast\windowsmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\podcast\windowsmedia\WBWindowsMediaFile.cpp">
+      <Filter>Source Files\podcast\windowsmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\podcast\windowsmedia\WBWindowsMediaVideoEncoder.cpp">
+      <Filter>Source Files\podcast\windowsmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\podcast\WBAbstractVideoEncoder.cpp">
+      <Filter>Source Files\podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\podcast\WBPodcastController.cpp">
+      <Filter>Source Files\podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\podcast\WBPodcastRecordingPalette.cpp">
+      <Filter>Source Files\podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBAbstractDrawRuler.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsCache.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsCompass.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsCurtainItem.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsCurtainItemDelegate.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsProtractor.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsRuler.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBGraphicsTriangle.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tools\WBToolsManager.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\WBOEmbedParser.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\WBWebController.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\WBWebKitUtils.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\WBWebPluginWidget.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\WBWebPage_.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\web\browser\WBDownloadManager_.cpp">
+      <Filter>Source Files\web\browser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Source\pdf\PDFRenderer.h">
+      <Filter>Header Files\pdf</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\pdf\GraphicsPDFItem.h">
+      <Filter>Header Files\pdf</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\qtsingleapplication\qtlocalpeer.h">
+      <Filter>Header Files\qtsingleapplication</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\qtsingleapplication\qtsingleapplication.h">
+      <Filter>Header Files\qtsingleapplication</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBChaseWidget.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBEditTableView.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBModelMenu.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBSearchLineEdit.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBSqueezeLabel.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBTabWidget.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBToolBarSearch.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBUrlLineEdit.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBWebTrapWebView.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBWebView.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\pdf\XPDFRenderer.h">
+      <Filter>Header Files\pdf</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportCFF.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportDocument.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportDocumentSetAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportFullPDF.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportPDF.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBExportWeb.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBImportAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBImportCFF.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBImportDocument.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBImportDocumentSetAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBImportImage.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\adaptors\WBImportPDF.h">
+      <Filter>Header Files\adaptor</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\api\WBLibraryAPI.h">
+      <Filter>Header Files\api</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\api\WBW3CWidgetAPI.h">
+      <Filter>Header Files\api</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\api\WBWidgetMessageAPI.h">
+      <Filter>Header Files\api</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\api\WBWidgetUniboardAPI.h">
+      <Filter>Header Files\api</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\board\WBBoardController.h">
+      <Filter>Header Files\board</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\board\WBBoardPaletteManager.h">
+      <Filter>Header Files\board</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\board\WBBoardView.h">
+      <Filter>Header Files\board</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\board\WBDrawingController.h">
+      <Filter>Header Files\board</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\board\WBFeaturesController.h">
+      <Filter>Header Files\board</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBApplication.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBApplicationController.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBDisplayManager.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBDocumentManager.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBDownloadManager.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBDownloadThread.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBIdleTimer.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBMimeData.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBOpenSankoreImporter.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBPersistenceManager.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBPersistenceWorker.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBPreferencesController.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBSetting.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\core\WBSettings.h">
+      <Filter>Header Files\core</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\customWidgets\WBActionableWidget.h">
+      <Filter>Header Files\customWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\customWidgets\WBGraphicsItemAction.h">
+      <Filter>Header Files\customWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\customWidgets\WBMediaWidget.h">
+      <Filter>Header Files\customWidgets</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\desktop\WBCustomCaptureWindow.h">
+      <Filter>Header Files\desktop</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\desktop\WBDesktopAnnotationController.h">
+      <Filter>Header Files\desktop</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\desktop\WBDesktopPalette.h">
+      <Filter>Header Files\desktop</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\desktop\WBDesktopPropertyPalette.h">
+      <Filter>Header Files\desktop</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\desktop\WBWindowCapture.h">
+      <Filter>Header Files\desktop</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\desktop\WBWindowCaptureDelegate_win.h">
+      <Filter>Header Files\desktop</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\document\WBDocumentContainer.h">
+      <Filter>Header Files\document</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\document\WBDocumentController.h">
+      <Filter>Header Files\document</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\document\WBDocumentProxy.h">
+      <Filter>Header Files\document</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsGroupContainerItemDelegate.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsItemDelegate.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsMediaItem.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsMediaItemDelegate.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsPDFItem.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsPixmapItem.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsScene.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsStrokesGroup.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsTextItem.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsTextItemDelegate.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsWidgetItem.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBGraphicsWidgetItemDelegate.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\domain\WBSelectionFrame.h">
+      <Filter>Header Files\domain</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\frameworks\WBCryptoUtils.h">
+      <Filter>Header Files\frameworks</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\frameworks\WBFileSystemUtils.h">
+      <Filter>Header Files\frameworks</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBActionPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBBackgroundPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBBlackoutWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBBoardThumbnailsView.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBCachePropertiesWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBClockPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBColorPicker.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDockDownloadWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDockPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDockPaletteWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDocumentNavigator.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDocumentThumbnailWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDocumentToolsPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDocumentTreeWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBDownloadWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBFavoriteToolPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBFeaturesActionBar.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBFeaturesWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBFloatingPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBIconButton.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBKeyboardPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBMagnifer.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBMainWindow.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBMessagesDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBMessageWindow.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBMousePressFilter.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBOpenSankoreImporterWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBPageNavigationWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBPropertyPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBResources.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBRightPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBRubberBand.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBScreenMirror.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBSpinningWheel.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBStartupHintsPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBStylusPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBThumbnailView.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBThumbnailWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBToolbarButtonGroup.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBToolWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBUpdateDlg.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBWebToolsPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBWidgetMirror.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\gui\WBZoomPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\network\WBAutoSaver.h">
+      <Filter>Header Files\network</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\network\WBHttpGet.h">
+      <Filter>Header Files\network</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\network\WBNetworkAccessManager.h">
+      <Filter>Header Files\network</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBAbstractDrawRuler.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBGraphicsCompass.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBGraphicsCurtainItem.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBGraphicsCurtainItemDelegate.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBGraphicsProtractor.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBGraphicsRuler.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBGraphicsTriangle.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\tools\WBToolsManager.h">
+      <Filter>Header Files\tools</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\podcast\windowsmedia\WBWaveRecorder.h">
+      <Filter>Header Files\podcast\windowsmedia</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\podcast\windowsmedia\WBWindowsMediaFile.h">
+      <Filter>Header Files\podcast\windowsmedia</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\podcast\windowsmedia\WBWindowsMediaVideoEncoder.h">
+      <Filter>Header Files\podcast\windowsmedia</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\podcast\WBAbstractVideoEncoder.h">
+      <Filter>Header Files\podcast</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\podcast\WBPodcastController.h">
+      <Filter>Header Files\podcast</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\podcast\WBPodcastRecordingPalette.h">
+      <Filter>Header Files\podcast</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\WBOEmbedParser.h">
+      <Filter>Header Files\web</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\WBWebController.h">
+      <Filter>Header Files\web</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\WBWebPluginWidget.h">
+      <Filter>Header Files\web</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\WBWebPage_.h">
+      <Filter>Header Files\web</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBBrowserWindow.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\web\browser\WBDownloadManager_.h">
+      <Filter>Header Files\web\browser</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="UI\mainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UI\blackoutWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UI\brushProperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UI\documents.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UI\preferences.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Source\web\browser\proxy.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Source\web\browser\downloaditem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Source\web\browser\downloads.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\core\memcheck.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBCFFAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBCFFAdaptor_global.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBCFFConstants.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBCFFSubsetAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBGlobals.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBMetadataDcSubsetAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBSvgSubsetAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\adaptors\WBThumbnailAdaptor.h">
+      <Filter>Header Files\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\WB.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\WBForeignObjectsHandler.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\WBSceneCache.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\WBTextTools.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\document\WBSortFilterProxyModel.h">
+      <Filter>Header Files\document</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBDragableThumbnail.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsDelegateFrame.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsGroupContainerItem.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsItemGroupUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsItemTransformUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsItemUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsItemZLevelUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsPolygonItem.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsProxyWidget.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsStroke.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsSvgItem.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBGraphicsTextItemUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBItem.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBPageSizeUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBResizableGraphicsItem.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\domain\WBUndoCommand.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\frameworks\WBBase32.h">
+      <Filter>Header Files\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\frameworks\WBCoreGraphicsScene.h">
+      <Filter>Header Files\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\frameworks\WBGeometryUtils.h">
+      <Filter>Header Files\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\frameworks\WBPlatformUtils.h">
+      <Filter>Header Files\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\frameworks\WBStringUtils.h">
+      <Filter>Header Files\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\frameworks\WBVersion.h">
+      <Filter>Header Files\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\globals\WBGlobals.h">
+      <Filter>Header Files\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gui\WBCircleFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gui\WBLeftPalette.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\tools\WBGraphicsCache.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\web\WBWebKitUtils.h">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lang_zh_CN.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WBoard.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resources\WBoard.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

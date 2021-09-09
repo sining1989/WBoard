@@ -1,0 +1,290 @@
+QWidget#DockPaletteWidgetBox,
+QWidget#documentNavigator,
+QWidget#WBBoardThumbnailsView,
+QWidget#WBLibPathViewer,
+QWidget#WBLibNavigatorWidget,
+QWidget#WBLibItemProperties,
+QWidget#WBDownloadWidget,
+QWidget#WBTeacherGuideWidget,
+QWidget#WBFeaturesNavigatorWidget,
+QWidget#PathList,
+QWidget#WBFeaturesCentralWidget
+{
+	background: #EEEEEE;
+	border-radius: 5px;
+	border: 2px solid #999999;
+}
+
+QTextEdit,
+QLineEdit,
+QComboBox#DockPaletteWidgetComboBox QAbstractItemView
+{
+    selection-background-color: lightgreen;
+    selection-color: black;
+}
+
+
+QWidget#mAdditionalDataContainer
+{
+	border-radius: 5px;
+	border: 2px solid #999999;
+}
+
+QWidget#WBMediaVideoContainer
+{
+	background: #000000;
+	border-radius: 5px;
+	border: 2px solid #999999;
+}
+
+QWidget#WBLibWebView
+{
+	background: #EEEEEE;
+	border-radius : 5px;
+	border: 2px solid #999999;
+}
+
+QListView
+{
+      border: 0px;
+}
+
+QWidget#WBFeatureProperties
+{
+      border: 2px;
+}
+
+QWebView#SearchEngineView
+{
+	background:white;
+}
+
+QColorDialog
+{
+	background: #EEEEEE;
+}
+
+QLabel#DockPaletteWidgetTitle
+{
+	color: #FFFFFF;
+	font-size : 18px;
+	font-weight:bold;
+}
+
+QLineEdit#UBTGLineEdit,
+QLabel#WBTGMediaDropMeLabel
+{
+	background: white;
+	border: 1 solid #999999;
+	border-radius : 5px;
+	padding: 2px;
+}
+
+QComboBox#DockPaletteWidgetComboBox
+{
+	background: white;
+	border-radius : 5px;
+	padding: 2px;
+}
+
+QComboBox#DockPaletteWidgetComboBox:drop-down
+{
+	background: white;
+	width:1px;
+	height:1px;
+	margin: 5px 5px 0px 0px;
+}
+
+QComboBox#DockPaletteWidgetComboBox::down-arrow
+{
+	image:url(:/images/down_arrow.png);
+	background:#BBBBBB;
+	border: 2px solid #999999;
+	height:16px;
+	width:16px;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 5px 0px 0px;
+	border-radius: 10px;
+}
+
+QPushButton#DockPaletteWidgetButton
+{
+	background-color : #DDDDDD;
+	color : #555555;
+	border-radius : 5px;
+	padding : 5px;
+	font-weight : bold;
+	font-size : 12px;
+}
+
+QTextEdit#TeacherStudentBox
+{
+	background: white;
+	border: 2px solid #999999;
+	border-radius: 5px;
+}
+
+QPushButton#DockPaletteWidgetButton::checked
+{
+	background-color: #BBBBBB;
+}
+
+QScrollBar::vertical
+{
+	background:transparent;
+	margin: 23px 1px 25px 1px;
+}
+
+QScrollBar::handle:vertical
+{
+	border: 2px solid #999999;
+	border-radius:6px;
+	background:#BBBBBB;
+	min-height:40px;
+}
+
+QScrollBar::add-line:vertical
+{
+	image:url(:/images/down_arrow.png);
+	height:16px;
+	background:#BBBBBB;
+	border:2px solid #999999;
+	border-radius:6px;
+	margin: 1px 1px 4px 1px;
+	subcontrol-position:bottom;
+	subcontrol-origin:margin;
+}
+
+QScrollBar::sub-line:vertical
+{
+	image:url(:/images/up_arrow.png);
+	height:16px;
+	background:#BBBBBB;
+	border:2px solid #999999;
+	border-radius:6px;
+	margin: 2px 1px 1px 1px;
+	subcontrol-position:top;
+	subcontrol-origin:margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+	background:transparent;
+}
+
+QScrollBar::horizontal
+{
+	background:transparent;
+	margin: 1px 23px 1px 25px;
+}
+
+QScrollBar::handle:horizontal
+{
+	border: 2px solid #999999;
+	border-radius:6px;
+	background:#BBBBBB;
+	min-width:40px;
+}
+
+QScrollBar::add-line:horizontal
+{
+	image:url(:/images/right_arrow.png);
+	width:16px;
+	background:#BBBBBB;
+	border:2px solid #999999;
+	border-radius:6px;
+	margin: 1px 1px 1px 4px;
+	subcontrol-position:right;
+	subcontrol-origin:margin;
+}
+
+QScrollBar::sub-line:horizontal
+{
+	image:url(:/images/left_arrow.png);
+	width:16px;
+	background:#BBBBBB;
+	border:2px solid #999999;
+	border-radius:6px;
+	margin: 1px 2px 1px 1px;
+	subcontrol-position:left;
+	subcontrol-origin:margin;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+	background:transparent;
+}
+
+QSlider::handle::horizontal
+{
+	background-color:#EEEEEE;
+	margin-top:-5px;
+	margin-bottom:-5px;
+	height:20px;
+	width:18px;
+	border-radius:10px;
+	border:1px solid #555555;
+}
+
+QSlider::groove::horizontal
+{
+	background-color:#999999;
+	height:10px;
+	border-radius:5px;
+	border:1px solid #555555;
+}
+
+QLabel#WBTGEditionDocumentTitle
+{
+    color: black;
+    font-size : 14px;
+    font-weight:bold;
+}
+
+QLabel#WBTGPresentationDocumentTitle
+{
+    color: black;
+    font-size : 12px;
+    font-weight:bold;
+}
+
+QLabel#WBTGPageNumberLabel
+{
+    color: black;
+    font-size : 12px;
+    font-weight:bold;
+}
+
+WBTGAdaptableText#WBTGEditionPageTitle,
+WBTGAdaptableText#WBTGEditionComment
+{ 
+    color: black;
+    font-size : 12px;
+}
+
+WBTGAdaptableText#WBTGPresentationPageTitle
+{
+    color: black;
+    font-size:16px;
+    font-weight:bold;
+    border : none;
+}
+
+WBTGAdaptableText#WBTGPresentationComment
+{
+    color: black;
+    font-size:12px;
+    border : none;
+}
+  
+QFrame#WBTGSeparator
+{
+    background-color: #cccccc;
+}
+
+WBTGAdaptableText {
+   background-color: white; 
+   border:1 solid #999999; 
+   border-radius : 10px; 
+   padding: 2px;
+}
